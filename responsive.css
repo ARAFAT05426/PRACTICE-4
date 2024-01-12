@@ -16,4 +16,38 @@
         font-size: 0.5em;
         margin-bottom: 1rem;
     }
+    #feature_area{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    #feature_area .feature_img{
+        width: 95%;
+        margin: 0 auto;
+    }
+    #feature_area .feature_text{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    #service_area{
+        width: 95%;
+        flex-direction: column;
+    }
+    #service_area .service_text{
+        width: 100%;
+    }
+    #service_area .service_text .service_box{
+        width: 100%;
+    }
+    #service_area .service_img{
+        width: 100%;
+    }
+    #service_area .service_img img{
+        width: 80%;
+        height: 90%;
+        object-fit: cover;
+        border-radius: 10px;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }    
 }
