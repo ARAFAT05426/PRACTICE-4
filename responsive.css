@@ -1,0 +1,19 @@
+@media screen and (max-width:576px) {
+    #top_area{
+        width: 100%;
+    }
+    #top_area nav h3{
+        font-size: 1.5rem;
+    }
+    #top_area nav ul{
+        display: none;
+    }
+    #top_area .top_banner h1{
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    #top_area .top_banner p{
+        font-size: 0.5em;
+        margin-bottom: 1rem;
+    }
+}
