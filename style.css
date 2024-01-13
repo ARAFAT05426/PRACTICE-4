@@ -73,7 +73,7 @@ header{
 }
 
 #top_area .top_banner img{
-    width: 100%;
+    width: 95%;
 }
 
 /* Feature Area stars here */
@@ -302,9 +302,24 @@ header{
     justify-content: space-around;
 }
 
+#sponcer_area .sponcer_img img{
+    filter: grayscale(1);
+    opacity: 80%;
+}
 
-
-
+/* Footer Area starts here */
+footer{
+    margin: 0 auto;
+    width: 80%;
+    background: #FFF4E7;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: var(--Dark-02, #424242);
+    font-family: Work Sans;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border-radius: 10px;
+}
 
 
 
