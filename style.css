@@ -210,30 +210,97 @@ header{
     z-index: 100;
 }
 
+/* Sevice Area starts Here */
 
+#facts_area{
+    width: 80%;
+    margin: 3rem auto;
+}
 
+#facts_area .facts_heading{
+    margin-bottom: 5rem;
+    width: 100%;
+}
 
+#facts_area .facts_heading h1{
+    color:#131313;
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
 
+#facts_area .facts_heading p{
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: normal;  
+}
 
+#facts_area .facts_content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
 
+#facts_area .facts_content .facts_box{
+    text-align: center;
+    padding: 2rem 4rem;
+    background: #FFF;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
 
+#facts_area .facts_content .facts_box img{
+    margin-bottom: 1rem;
+}
 
+#facts_area .facts_content .facts_box h1{
+    color: var(--Dark-02, #424242);
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
 
+#facts_area .facts_content .facts_box p{
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+}
 
+/* SponCers Area Starts Here */
 
+#sponcer_area{
+    width: 80%;
+    margin: 8rem auto;
+    text-align: center;
+}
 
+#sponcer_area h1{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
 
+#sponcer_area p{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 3rem;
+}
 
-
-
-
-
-
-
-
-
-
-
+#sponcer_area .sponcer_img{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 

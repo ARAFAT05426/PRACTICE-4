@@ -40,14 +40,42 @@
     }
     #service_area .service_img{
         width: 100%;
+        height: 50vh;
     }
     #service_area .service_img img{
-        width: 80%;
+        width: 100%;
         height: 90%;
         object-fit: cover;
         border-radius: 10px;
-        position: absolute;
-        top: 0;
+    }  
+    #service_area .service_img button{
+        bottom: 0;
         right: 0;
-    }    
+        padding:2rem 3rem;
+    } 
+    #facts_area .facts_content{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #facts_area .facts_content .facts_box{
+        padding: 1rem 1.5rem;
+        width: 40%;
+        margin: 5px;
+    }
+    #facts_area .facts_content .facts_box h1{
+        font-size: 1.5rem;
+    }
+    #facts_area .facts_content .facts_box p{
+        font-size: 11px;
+    }
+    #sponcer_area{
+        width: 95%;
+    }
+    #sponcer_area .sponcer_img{
+        flex-wrap: wrap;
+    }
+    #sponcer_area .sponcer_img img{
+        margin: 10px;
+    }
+
 }
